@@ -1,0 +1,88 @@
+header {
+    margin-bottom: 130px;
+}
+
+header h1 {
+    margin: 20px 0 0 20px;
+    font-size: 70px;
+    font-family: 'Caveat', cursive;
+}
+
+header ul {
+    text-align: right;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+/* header .link {
+    display: inline;
+} */
+
+.container1, .container2 {
+    margin-bottom: 100px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+}
+
+.left_content {
+    margin: auto 20px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+}
+
+.right {
+    width: 50%;
+}
+
+.right .img {
+    width: 100%;
+}
+
+.container2 h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.skill_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.skill1_img, .skill2_img, .skill3_img {
+    text-align: center;
+}
+
+.skill_example1, .skill_example2, .skill_example3 {
+    margin: 0 30px;
+}
+
+
+footer {
+    border-top: 1px solid black;
+    margin-top: 20px;
+    text-align: center;
+}
