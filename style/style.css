@@ -1,5 +1,5 @@
 header {
-    margin-bottom: 130px;
+    margin-bottom: 100px;
 }
 
 header h1 {
@@ -32,7 +32,7 @@ header li a {
 
 .box1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -45,7 +45,11 @@ header li a {
     text-align: center;
 }
 
-h2 {
+.right {
+    text-align: center;
+}
+
+h2, .work_main h1 {
     text-align: center;
     font-size: 40px;
     font-family: 'Caveat', cursive;
@@ -81,6 +85,41 @@ h2 {
     margin: 0 30px;
 }
 
+/* ここからwork.html  */
+.work_main {
+    text-align: center;
+}
+
+.work1, .work2, .work3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.work2 {
+    margin-left: 150px;
+}
+
+/* ここからcontact.html */
+.contact_h1 {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+.contact_form {
+    text-align: center;
+}
+
+.contact_form label {
+    margin-right: 10px;
+}
+
+.tyuui {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -20px;
+}
 
 footer {
     border-top: 1px solid black;
